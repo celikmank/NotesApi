@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Bıraktım",
+    "slug": "biraktim",
+    "version": "1.0.0",
+    "scheme": "biraktim",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#17130F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.biraktim.app"
+    },
+    "android": {
+      "package": "com.biraktim.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#17130F"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "color": "#E8926B"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
