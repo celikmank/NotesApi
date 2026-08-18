@@ -106,4 +106,4 @@ export const tr = {
     restore: 'Geri yükle',
     terms: 'Trial sonunda otomatik yenilenir. İstediğin an iptal edebilirsin.',
   },
-} as const;
+};

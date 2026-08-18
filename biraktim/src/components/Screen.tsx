@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, StyleSheet, ScrollView, type ViewStyle } from 'react-native';
+import { View, StyleSheet, ScrollView, type StyleProp, type ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, spacing } from '../theme';
 
 interface Props {
   children: React.ReactNode;
   scroll?: boolean;
-  contentStyle?: ViewStyle;
+  contentStyle?: StyleProp<ViewStyle>;
 }
 
 export function Screen({ children, scroll, contentStyle }: Props) {
